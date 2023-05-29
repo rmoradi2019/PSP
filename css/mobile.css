@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Yekan;
+    src: url(YekanBakhBold.woff);
+}
+body{
+    direction: rtl;
+    font-family: Yekan;
+    font-size: 12px;
+    background-color: #2a6bf7;
+}
+
+@media (max-width: 768px) {
+                .img{
+                   width : 50%;
+                   
+                   margin-top: 40%;
+                   margin-right:25%;
+                }
+                }
+                
+@media (max-width: 768px) {
+                .h2{
+                   width : 80%;
+                   color: white;
+                   text-align:center;
+                   margin-right:5%;
+                }
+                }

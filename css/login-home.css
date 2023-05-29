@@ -1,0 +1,225 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+} 
+@font-face {
+    font-family: Yekan;
+    src: url(YekanBakhBold.woff);
+}
+body{
+    direction: rtl;
+    font-family: Yekan;
+    font-size: 12px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-cadr{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-right: 26%;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 90%;
+    border: 2px solid white;
+  }
+  .column {
+    float: left;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .h2-login{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.formclass{
+    padding: 30px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.25rem !important;
+}
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+  
+  }
+  .input-group {
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    font-family: Yekan;
+    height: 50px;
+    box-shadow: rgb(116, 117, 117) 0px 0px 20px 0px;
+    border-radius: 20px;
+  }
+  .input-group-text {
+    background-color: rgba(114, 4, 248, 0.822);
+    border: none;
+    color: #6b16d3;
+    border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-weight: 500;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Yekan;
+
+  }
+  .form-control{
+    border-color: #e6edef;
+    font-size: 14px;
+    color: #898989;
+    transition: all 0.3s ease;
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    background-color: #fff;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    font-family: Yekan;
+    }
+    .btn {
+        margin-left: unset;
+        margin-right: auto;
+        margin-bottom: 20px;
+        position: relative;
+        text-transform: uppercase;
+      font-weight: 700;
+      display: block;
+      cursor: pointer;
+      padding: 0.375rem 1.75rem;
+      background-color: #6b22c4 !important;
+      border-color: #7951aa !important;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      color: white;
+      -webkit-appearance: button;
+      margin: 0;
+      overflow: visible;
+      width: 100%;
+      font-family: Yekan;
+      height: 50px;
+      }
+      .btn:hover{
+        background-color: #6f06ee !important;
+      border-color: #f7f4f5 !important;
+      box-shadow: rgb(116, 117, 117) 0px 0px 20px 0px;
+      }
+      label {
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        display: inline-block;
+        font-family: Yekan;
+        color: #ced4da;
+        font-size: 17px;
+      }
+
+      table {
+        margin-right: 10px;
+        border-collapse: collapse;
+        width: 98%;
+      }
+      
+      td, th {
+        border: 1px solid #0c0b0b;
+        text-align: center;
+        padding: 8px;
+        color: whitesmoke;
+      }
+      
+      tr:nth-child(even) {
+        background-color:rgba(0, 0, 0, 0.35)
+      }
+
+@media (max-width: 768px) {
+
+  .login-cadr{
+    width: 100%;
+    height: fit-content;
+    margin-right: 0;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .input-group{
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    width: fit-content;
+    font-family: Yekan;
+    height: 50px;
+    box-shadow: rgb(116, 117, 117) 0px 0px 20px 0px;
+    border-radius: 20px;
+  }
+  .btn{
+    margin-left: unset;
+        margin-right: 0;
+        margin-bottom: 0;
+        position: relative;
+        text-transform: uppercase;
+      font-weight: 700;
+      display: block;
+      cursor: pointer;
+      padding: 0.375rem 1.75rem;
+      background-color: #6b22c4 !important;
+      border-color: #7951aa !important;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      color: white;
+      -webkit-appearance: button;
+      margin: 0;
+      overflow: visible;
+      width: 50%;
+      font-family: Yekan;
+      height: 50px;
+  }
+
+}
